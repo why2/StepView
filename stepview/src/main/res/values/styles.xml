@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="StepView">
+        <attr name="total_step" format="integer" />
+        <attr name="current_step" format="integer" />
+        <attr name="circle_radius" format="dimension" />
+        <attr name="line_width" format="dimension" />
+        <attr name="line_height" format="dimension" />
+        <attr name="circle_line_space" format="dimension" />
+        <attr name="orientation" format="enum">
+            <enum name="horizontal_left_to_right" value="0" />
+            <enum name="vertical_top_to_bottom" value="1" />
+            <enum name="horizontal_right_to_left" value="2" />
+            <enum name="vertical_bottom_to_top" value="3" />
+        </attr>
+        <attr name="past_step_color" format="color" />
+        <attr name="un_past_step_color" format="color" />
+    </declare-styleable>
+</resources>

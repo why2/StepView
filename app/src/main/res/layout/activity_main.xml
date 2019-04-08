@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.shida.dstepview.MainActivity">
+
+    <com.shida.stepview.StepView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:total_step="1" />
+
+
+    <com.shida.stepview.StepView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:current_step="2"
+        app:total_step="5" />
+
+    <com.shida.stepview.StepView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:total_step="7" />
+
+    <com.shida.stepview.StepView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:current_step="2"
+        app:total_step="7" />
+
+    <com.shida.stepview.StepView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:current_step="3"
+        app:total_step="7" />
+
+    <com.shida.stepview.StepView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:current_step="7"
+        app:total_step="7" />
+
+    <com.shida.stepview.StepView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:circle_radius="10dp"
+        app:current_step="2" />
+
+    <com.shida.stepview.StepView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:circle_line_space="20dp"
+        app:current_step="3" />
+
+    <com.shida.stepview.StepView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:current_step="3"
+        app:line_width="10dp" />
+
+    <com.shida.stepview.StepView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:circle_radius="10dp"
+        app:current_step="3" />
+
+    <com.shida.stepview.StepView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:circle_radius="10dp"
+        app:current_step="3"
+        app:line_height="5dp" />
+
+    <com.shida.stepview.StepView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:circle_radius="5dp"
+        app:current_step="3"
+        app:line_height="10dp" />
+
+    <com.shida.stepview.StepView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:circle_radius="5dp"
+        app:current_step="3"
+        app:line_height="2dp"
+        app:past_step_color="#0F0" />
+
+    <com.shida.stepview.StepView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:circle_radius="5dp"
+        app:current_step="3"
+        app:line_height="2dp"
+        app:past_step_color="#0F0"
+        app:un_past_step_color="#999" />
+
+    <com.shida.stepview.StepView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:circle_radius="5dp"
+        app:current_step="4"
+        app:line_height="2dp"
+        app:orientation="horizontal_right_to_left"
+        app:past_step_color="#0F0"
+        app:un_past_step_color="#999" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <com.shida.stepview.StepView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:current_step="3"
+            app:orientation="vertical_top_to_bottom"
+            app:total_step="7" />
+
+        <com.shida.stepview.StepView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            app:current_step="3"
+            app:orientation="vertical_bottom_to_top"
+            app:total_step="7" />
+    </LinearLayout>
+</LinearLayout>
